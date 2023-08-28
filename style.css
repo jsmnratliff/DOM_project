@@ -1,0 +1,17 @@
+body { 
+    height: 200vh;
+    width: 150vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: violet;
+}
+#game-board {
+    background-color: blueviolet;
+    width: 200vhmin;
+    height: 150vwmin;
+    display: grid;
+    grid-template-rows: repeat (21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
