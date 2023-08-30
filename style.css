@@ -1,17 +1,36 @@
-body { 
-    height: 200vh;
-    width: 150vw;
+* {
+    box-sizing: border-box;
+    font-family: gotham rounded;
+}
+body {
+    padding:20px ;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    background-color: violet;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
 }
-#game-board {
-    background-color: blueviolet;
-    width: 200vhmin;
-    height: 150vwmin;
+.container {
+    width: 550px;
+    max width: 80%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0, 0, 10px, 2px;
+}
+.btn-grid {
     display: grid;
-    grid-template-rows: repeat (21, 1fr);
-    grid-template-columns: repeat(21, 1fr);
+    grid-template-columns: 3, auto;
+    gap:10px;
+    margin-top; 50px;
+}
+.btn {
+    background-color:rgb(96, 80, 205);
+    border: 2px, solid, black;
+    boarder-radius: 5px;
+    padding: 5px, 10px;
+    color: white;
+    outline: none;
 }
