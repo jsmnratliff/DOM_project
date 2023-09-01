@@ -78,14 +78,14 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 4,
-      text: "It's dark, wet, and it stinks. As you're waiting for the stormtroopers to walk past above you, you notice how dark it is. As you look deeper into the dark sewers, you start to see a light form in the shape of a familar face. It's too blurry to see who it is.",
+      text: "As you journey deeper into the dark and damp sewers, the stench becomes overwhelming. You crouch in the shadows, waiting for the patrol of stormtroopers to pass overhead. The darkness seems impenetrable, but your Jedi senses guide you forward.",
       options: [
         {
-          text: "Trust the force and walk deeper into the sewers, towards the figure.",
+          text: "Trust the force and walk deeper into the sewers.",
           nextText: 6,
         },
         {
-          text: "Ignore the light and climb back into the streets of....",
+          text: "Ignore the force and climb back into the streets of Coruscant.",
           nextText: 5,
         },
         {
@@ -110,10 +110,10 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 6,
-      text: "The force leads you into Republic City. You're walking around. asking the Aliens where the Taung child could be. One Alien citizen gives you a hard time by saying that they should all be free to live wherever they please and that if you were a REAL Jedi, you would break them out.",
+      text: "The Force leads you to Republic City. You find yourself in a bustling alien metropolis. Strange creatures from all corners of the galaxy go about their business.You begin to ask the aliens for information about the lost Taung child. One Alien citizen, however, confronts you, questioning your commitment as a Jedi. 'If you were a REAL Jedi,' the citizen challenges, 'you would break us out.'",
       options: [
         {
-          text: "Agree with the Alien and break all Alien citizens out of Republic City.",
+          text: "Agree, and break all Alien citizens out of Republic City.",
           nextText: 2,
         },
         {
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 7,
-      text: "The Citizen is an old Jedi in hiding. He gives you a blaster and a map that shows you how to use the sewer system to get to the Alien refugee camp, Republic City.",
+      text: "To your surprise, the citizen reveals their true identity—a wise old Jedi in hiding. The old Jedi hands you a blaster and a map that outlines the intricacies of the sewer system, a secret network used by the alien refugees in Republic City.",
       options: [
         {
           text: "Thank the old Jedi for helping you and proceed to the sewers to save the old Taung girl.",
@@ -142,17 +142,77 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 8,
-      text: "You've avoided being spotted by Stormtroopers and large crowds of citizens and made your way to a tall, white buidling on the north side of the camp. You peer inside a window and find the lost Taung girl along with other Alien children inside prison cells. Next to each prison door was a hanging key.",
+      text: "You navigate the dark, twisting tunnels beneath the city, avoiding the watchful eyes of Stormtroopers and blending in with the refugee crowds. Finally, you arrive at a tall, white building nestled in the northern part of the refugee camp. Peering through a small window, your heart leaps as you spot the lost Taung girl, along with other Alien children, locked in prison cells. Next to each cell door hangs a key, waiting to be used.The fate of the Taung child and the alien refugees now rests in your hands. Your Jedi training and the Force have brought you this far. What will you do next?",
       options: [
         {
           text: "Use the force to lift the key and unlock the prison cells relasing the children.",
-          nextText: ,
+          nextText: 9,
         },
         {
           text: "Walk into the front door and start whooping Strormtrooper ass.",
-          nextText: ,
+          nextText: 10,
+        },
+        {
+          text: "Succumb to the Dark Side and Unleash Your Anger",
+          nextText: 11,
+        }
+      ],
+    },
+    {
+      id: 9,
+      text: "With the Force as your ally, you focus your energy on lifting the key hanging beside the prison cells. A soft, blue glow surrounds the key, and it slowly rises into the air, guided by your concentration. The children inside the cells watch in amazement as the key effortlessly turns and unlocks each prison door.As the children step out of their cells, a sense of relief and gratitude fills the air. You've successfully rescued them, and their trust in you as a Jedi is unwavering.",
+      options: [
+        {
+          text: "",
+          nextText: 9,
+        },
+        {
+          text: "",
+          nextText: 10,
+        },
+        {
+          text: "",
+          nextText: 11,
+        }
+      ],
+    },
+    {
+      id: 10,
+      text: "With your lightsaber ignited, you charge into the front door, determined to confront the Stormtroopers directly. Your blue blade crackles with energy as you engage in a fierce battle with the Imperial forces. Blaster bolts fly through the air, and the clashing of lightsabers echoes through the building's halls. Your Jedi skills prove formidable as you swiftly dispatch the Stormtroopers, one by one. Their numbers dwindle, and fear grips those who remain. You reach the imprisoned Taung child, cutting through the cell door's lock with your lightsaber. She emerges, terrified but safe, and you lead her to safety. The sight of the Jedi's bravery and combat prowess inspires hope among the alien refugees, and they rally behind you. However, your confrontation with the Stormtroopers doesn't go unnoticed. Imperial reinforcements are on their way, and the battle is far from over. With the Taung child and the refugees at your side, you must now make a daring escape and continue your mission to return her to Roon, all while evading the relentless pursuit of the Empire.",
+      options: [
+        {
+          text: "",
+          nextText: 9,
+        },
+        {
+          text: "",
+          nextText: 10,
+        },
+        {
+          text: "",
+          nextText: 11,
+        }
+      ],
+    },
+    {
+      id: 11,
+      text: "As you stand before the tall, white building, the anger and frustration that have built up inside you over the years begin to consume your thoughts. You can't help but resent the Empire and its Stormtroopers for causing so much suffering. Without hesitation, you abandon your Jedi principles and succumb to the dark side of the Force. You charge through the front door, not with the intention of rescuing the Taung child, but with a thirst for vengeance. Your lightsaber blazes with a crimson hue as you engage the Stormtroopers. The dark side enhances your power, and you ruthlessly cut down your foes, not stopping until they lie lifeless on the floor. Inside the prison cells, the Taung child and the other alien children watch in horror as you approach. Your anger is palpable, and they can sense the malevolent energy emanating from you. You force open the cell doors, terrifying the children further.",
+      options: [
+        {
+          text: "Exit the building.",
+          nextText: 12,
         },
       ],
+    },
+    {
+      id: 12,
+      text: "As you exit the building, leaving a trail of destruction behind you, the refugees who once looked to you for hope now regard you with fear and mistrust. They have witnessed the fall of a Jedi to the dark side, and they know that a new threat has emerged. Your actions have consequences, and the darkness that now surrounds you will lead you down a path of destruction and despair. The Empire may have been your enemy, but you've become something far more menacing. The galaxy trembles in the face of your newfound malevolence, and your journey takes a sinister turn as you embrace the dark side's power.",
+      Options: [
+        {
+          text: "Start Over?",
+          nextText: 1,
+        },
+      ]
     },
   ];
 
