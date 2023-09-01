@@ -34,7 +34,6 @@ body {
     display: inline-block;
     background-color:rgb(96, 80, 205);
     border: 4px, solid black;
-    color:rgb(119, 219, 102);
     border-radius: 15px;
     cursor: pointer;
     position: relative;
@@ -42,7 +41,7 @@ body {
     padding: 10px, 90px;
     font-size: 15px;
     color: white;
-    outline:coral;
+    outline:rgba(0, 0, 0, 0);
     transition: transform 0.5s, box-shadow 0.5s;
 }
 .glow-button::before {
@@ -58,11 +57,11 @@ body {
   
   .glow-button:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(41, 242, 105, 0.8);
+    box-shadow: 0 0 30px rgb(64, 218, 62);
   }
   
   .glow-button:hover::before {
-    opacity: 1;
+    opacity: 10;
     transform: scale(1.2);
   }
   
