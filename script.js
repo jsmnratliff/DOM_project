@@ -207,12 +207,12 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 12,
       text: "As you exit the building, leaving a trail of destruction behind you, the refugees who once looked to you for hope now regard you with fear and mistrust. They have witnessed the fall of a Jedi to the dark side, and they know that a new threat has emerged. Your actions have consequences, and the darkness that now surrounds you will lead you down a path of destruction and despair. The Empire may have been your enemy, but you've become something far more menacing. The galaxy trembles in the face of your newfound malevolence, and your journey takes a sinister turn as you embrace the dark side's power.",
-      Options: [
+      options: [
         {
-          text: "Start Over?",
+          text: "Start Over",
           nextText: 1,
         },
-      ]
+      ],
     },
   ];
 
