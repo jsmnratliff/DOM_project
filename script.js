@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const textNodes = [
     {
       id: 1,
+      id: 1,
       text:
         "Youngling, This is your first trial. Look for an Invisec, home to many species of Aliens, called Republic City. Held there, away from the Humanoids that claim Coruscant, a young Taung child. Bring her back to her home planet Roon. This is a very dangerous mission as most Jedi have been extinct; Be mindful and aware. STAY LOW!",
       options: [
@@ -67,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "You notice some Storm Toopers checking the area.",
       options: [
         {
-          text: "You find a manhole that leads into the sewer system and succesfully climb down into the sewers effectivly.",
+          text: "You find a manhole that leads into the sewer system and successfully climb down into the sewers effectively.",
           nextText: 4,
         },
         {
@@ -99,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "Someone recognizes you and waves you towards their direction.",
       options: [
         {
-          text: "Follow the sketchy citizen into their abode and stand there causously until they speak.",
+          text: "Follow the sketchy citizen into their abode and stand there cautiously until they speak.",
           nextText: 7,
         },
         {
@@ -117,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
           nextText: 2,
         },
         {
-          text: "Ignore the loud citizen, getting away from the crowd in the process. On to find the missing taung child.",
+          text: "Ignore the loud citizen, getting away from the crowd in the process. On to find the missing Taung child.",
           nextText: 8,
         },
          ],
@@ -131,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
           nextText: 4,
         },
         {
-          text: "Grab the blaster, shoot the old Jedi, and take his lightsabor. You then leave the dead Jedi's home and make your way to Republic City.",
+          text: "Grab the blaster, shoot the old Jedi, and take his lightsaber. You then leave the dead Jedi's home and make your way to Republic City.",
           nextText: 6,
         },
         {
@@ -145,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "You navigate the dark, twisting tunnels beneath the city, avoiding the watchful eyes of Stormtroopers and blending in with the refugee crowds. Finally, you arrive at a tall, white building nestled in the northern part of the refugee camp. Peering through a small window, your heart leaps as you spot the lost Taung girl, along with other Alien children, locked in prison cells. Next to each cell door hangs a key, waiting to be used.The fate of the Taung child and the alien refugees now rests in your hands. Your Jedi training and the Force have brought you this far. What will you do next?",
       options: [
         {
-          text: "Use the force to lift the key and unlock the prison cells relasing the children.",
+          text: "Use the force to lift the key and unlock the prison cells releasing the children.",
           nextText: 9,
         },
         {
@@ -170,20 +171,12 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 10,
-      text: "With your lightsaber ignited, you charge into the front door, determined to confront the Stormtroopers directly. Your blue blade crackles with energy as you engage in a fierce battle with the Imperial forces. Blaster bolts fly through the air, and the clashing of lightsabers echoes through the building's halls. Your Jedi skills prove formidable as you swiftly dispatch the Stormtroopers, one by one. Their numbers dwindle, and fear grips those who remain. You reach the imprisoned Taung child, cutting through the cell door's lock with your lightsaber. She emerges, terrified but safe, and you lead her to safety. The sight of the Jedi's bravery and combat prowess inspires hope among the alien refugees, and they rally behind you. However, your confrontation with the Stormtroopers doesn't go unnoticed. Imperial reinforcements are on their way, and the battle is far from over. With the Taung child and the refugees at your side, you must now make a daring escape and continue your mission to return her to Roon, all while evading the relentless pursuit of the Empire.",
+      text: "With your lightsaber ignited, you charge into the front door, determined to confront the Stormtroopers directly. Your blue blade crackles with energy as you engage in a fierce battle with the Imperial forces. Blaster bolts fly through the air, and the clashing of lightsabers echoes through the building's halls. Your Jedi skills prove formidable as you swiftly dispatch the Stormtroopers, one by one. Their numbers dwindle, and fear grips those who remain. You reach the imprisoned Taung child, cutting through the cell door's lock with your lightsaber. She emerges, terrified but safe, and you lead her to safety. The sight of the Jedi's bravery and combat prowess inspires hope among the other children, however, your confrontation with the Stormtroopers doesn't go unnoticed. Imperial reinforcements are on their way, and the battle is far from over. You must now make a daring escape and continue your mission to Roon.", 
       options: [
         {
-          text: "",
-          nextText: 9,
+          text: "On with the mission.",
+          nextText: 13,
         },
-        {
-          text: "",
-          nextText: 10,
-        },
-        {
-          text: "",
-          nextText: 11,
-        }
       ],
     },
     {
@@ -215,8 +208,8 @@ document.addEventListener("DOMContentLoaded", function () {
           nextText: 14,
         },
         {
-          text: "",
-          nextText: ,
+          text: "Approach the Stormtroopers.",
+          nextText: 20,
         },
       ],
     },
@@ -229,22 +222,22 @@ document.addEventListener("DOMContentLoaded", function () {
           nextText: 15,
         },
         {
-          text: "head into the streets of Coruscant and move through the crowd.",
+          text: "Walk the streets of Coruscant and move through the crowd.",
           nextText: 17,
         }
         ],
     },
     {
       id: 15,
-      text: "As you make your way across the rooftops, you sense a disturbance in the Force nearby. A lone Stormtrooper stands guard on a rooftop not far from your position. His helmeted head turns as if he's noticed something amiss. With a stern but silent nod to the little Taung girl, you step forward, activating your lightsaber with a sharp, blue hum. The Stormtrooper spots you and raises his blaster rifle, taking aim. The blaster bolt flies toward you, but you",
+      text: "As you make your way across the rooftops, you sense a disturbance in the Force nearby. A lone Stormtrooper stands guard on a rooftop not far from your position. His helmeted head turns as if he's noticed something amiss. With a stern but silent nod to the little Taung girl, you step forward, activating your lightsaber with a sharp, blue hum. The Stormtrooper spots you and raises his blaster rifle, taking aim. The blaster bolt flies toward you, but you...",
       options: [
         {
-          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
-          nextText: ,
+          text: "Deflect it into the night sky.",
+          nextText: 16,
         },
         {
-          text: "",
-          nextText: ,
+          text: "Deflect the blaster bolt back at Imperial officer.",
+          nextText: 25,
         }
         ],
     },
@@ -257,8 +250,8 @@ document.addEventListener("DOMContentLoaded", function () {
           nextText: 18,
         },
         {
-          text: "",
-          nextText: ,
+          text: "Deflect the blaster blolt at the Imperial officer.",
+          nextText: 25,
         }
         ],
     },
@@ -282,7 +275,7 @@ document.addEventListener("DOMContentLoaded", function () {
       options: [
         {
           text: "Kill the Imperial Stormtrooper.",
-          nextText: 20,
+          nextText: 25,
         },
         {
           text: "Show the Imperial Stormtrooper mercy.",
@@ -292,35 +285,31 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 19,
-      text: "You use the Force to calm his fear and influence his thoughts, implanting the idea that he should leave this life of servitude to the Empire behind. With a dazed expression, the Stormtrooper stumbles backward and then turns to flee from the rooftop, leaving his helmet behind. You watch him disappear into the night, his path forever changed. Turning back to the little Taung girl and the other children, you see a mixture of awe and gratitude in their eyes. The rooftop battle has come to an end, but the danger still lurks in the shadows of Coruscant.",
+      text: "You use the Force to calm his fear and influence his thoughts, implanting the idea that he should leave this life of servitude to the Empire behind. With a dazed expression, the Stormtrooper stumbles backward and then turns to flee from the rooftop, leaving his helmet behind. You watch him disappear into the night, his path forever changed. Turning back to the little Taung girl, you see a mixture of awe and gratitude in her eyes. The rooftop battle has come to an end, but the danger still lurks in the shadows of Coruscant.",
       options: [
         {
-          text: "",
-          nextText: ,
+          text: "Sneak off the rooftops, into the city of Doruscant.",
+          nextText: 17,
         },
         {
-          text: "",
-          nextText: ,
+          text: "Navigate the city from the rooftops.",
+          nextText: 26,
         }
         ],
     },
     {
       id: 20,
-      text: "",
+      text: "You grip your ignited lightsaber tightly, emotions twisted with anger and determination. The approaching Imperial reinforcements pause, taken aback by the fierce resolve in your eyes. With a defiant tone, you demand, 'We won't be stopped! We're going home, and you can't stand in our way!' The Stormtroopers raise their blasters, ready to confront you, but the senior officer signals them to hold fire. They step forward cautiously and ask, 'Why are you so angry, young one? What do you hope to achieve?' You respond, 'We have suffered enough! We won't be oppressed any longer. We're leaving, and you will not stop us!' Theres a tense standoff as you and the Stormtroopers exchange glares. The officer radios their superiors, and the situation remains on the brink. After what seems like an eternity, the officer lowers their blaster and sighs, 'Very well, child Jedi. We will let you go, but remember the consequences of your actions today. This will not be forgotten.' With a nod, you lead your alien friends away from the confrontation.", 
       options: [
         {
-          text: "",
-          nextText: ,
+          text: "On with the mission",
+          nextText: 24,
         },
-        {
-          text: "",
-          nextText: ,
-        }
         ],
     },
     {
       id: 21,
-      text: "",
+      text: "You clutch your ignited lightsaber nervously, trying to emulate the Jedi you've seen in action. The approaching Imperial reinforcements stop in their tracks, taken aback by the unexpected sight of a young Jedi. Trembling but determined, you speak up, 'We don't want any trouble. We just want to get home. This is the only way we know.' The Stormtroopers exchange glances, and the senior officer steps forward, crouching down to your eye level. They ask gently,'Where is your home, young one? Why are you alone in this dangerous place?' With sincerity in your voice, you explain, 'I'm not alone. These aliens are my friends. We just want to go back to Roon. Please, we don't want to fight.' The officer considers your words carefully and radios their superiors. After a tense moment, they nod and say, 'We will grant you safe passage this time. But remember, young Jedi, not all of us are as forgiving. You must be careful.' With the Stormtroopers allowing you and your alien friends to pass, you lead them to",
       options: [
         {
           text: "",
@@ -345,49 +334,45 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 23,
-      text: "",
+      text: "In the midst of the standoff, a brave citizen steps forward from the crowd, addressing the Stormtroopers and urging them to consider the consequences of their actions. The citizen's impassioned words sway the troopers, and they eventually decide to withdraw, retreating from the scene. The crowd erupts into a mixture of cheers and relief, grateful for your intervention and the bravery of the citizen who spoke up.",
       options: [
         {
-          text: "",
+          text: "Kill the citizen.",
           nextText: ,
         },
         {
-          text: "",
-          nextText: ,
+          text: "Put away your lightsaber away.",
+          nextText: 24,
         }
         ],
     },
     {
       id: 24,
-      text: "",
+      text: "You extinguish your lightsaber. With the immediate threat resolved, you continue to guide the little Taung girl and the other children through. You're one step closer to safely returning the child to her home planet, Roon, and your reputation as a Jedi grows stronger."      options: [
       options: [
         {
-          text: "",
-          nextText: ,
+          text: "LEave the city of Coruscant.",
+          nextText: 27,
         },
         {
           text: "",
           nextText: ,
         }
-        ],
+      ]
     },
     {
       id: 25,
-      text: "",
+      text: "With a swift and merciless movement of your lightsaber, you deflect the blaster bolt back at the Stormtrooper. The red beam of the bolt streaks through the air, finding its mark with deadly precision. The Stormtrooper's body jerks as the bolt strikes him squarely in the chest, and he crumples to the rooftop, lifeless. The little Taung girl looks at you, her eyes filled with both fear and awe. She has witnessed your display of power, and the choices you make from this point forward will shape her perception of the Force.You stand over the fallen Stormtrooper, the dark side of the Force swirling around you, fueled by your anger and power. In this moment of triumph, you feel the temptation to embrace the Sith path, to let your anger and hatred consume you. You take a moment to regain your composure and extinguish your lightsaber. The little Taung girl looks at you with a mix of fear and curiosity, but she senses that you mean her no harm. You offer her a reassuring smile and gently pat her on the shoulder.",
       options: [
         {
-          text: "",
-          nextText: ,
+          text: "Keep moving foward through the dark.",
+          nextText: 27,
         },
-        {
-          text: "",
-          nextText: ,
-        }
         ],
     },
     {
       id: 26,
-      text: "",
+      text: "you sense that the danger has not entirely passed. Imperial patrols continue to sweep the city streets below, and the night is far from quiet. You decide to stay hidden, keeping the Taung girl and the other children out of sight to avoid any further confrontation.Your goal now is to wait for the opportune moment to make your escape. You watch the movements of the Stormtroopers and their patrol patterns, relying on your Jedi intuition to time your departure precisely. After a tense hour of waiting, you spot an opening. The Imperial patrols have moved on to another area of the city, leaving a brief window of opportunity. You carefully guide the children down from the rooftops, ensuring they move silently and swiftly. ",
       options: [
         {
           text: "",
@@ -401,11 +386,11 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 27,
-      text: "",
+      text: "You reach the outskirts of the city. Hidden in the shadows of a derelict building, you find a small Imperial shuttle.You help the children aboard the shuttle, and with your piloting skills, you manage to take off without drawing attention. The shuttle lifts into the night sky, and you steer it away from Coruscant, setting a course for Roon.",
       options: [
         {
-          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
-          nextText: ,
+          text: "Ignite Lightspeed through the galaxy.",
+          nextText: 29,
         },
         {
           text: "",
@@ -429,10 +414,10 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 29,
-      text: "",
+      text: "You make the jump to lightspeed, leaving the bustling city behind. Your trial has been a success, and you've demonstrated your resourcefulness and ability to adapt to challenging situations. Guided by the Force, you navigate the treacherous spaceways, avoiding Imperial patrols and maintaining a low profile. Your piloting skills and the stolen shuttle allow you to make a swift, uneventful journey back to the Taung girl's homeworld",
       options: [
         {
-          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
+          text: "",
           nextText: ,
         },
         {
