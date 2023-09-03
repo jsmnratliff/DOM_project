@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const textElement = document.getElementById("text");
+  const textElement = document.getElementById("text")
   const optionButtonsElement = document.getElementById("option-buttons");
   const typewriterText = document.getElementById("typewriter");
 
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     textElement.innerText = textNode.text;
 
     while (optionButtonsElement.firstChild) {
-      optionButtonsElement.removeChild(optionButtonsElement.firstChild);
+      optionsButtonsElement.removeChild(optionButtonsElement.firstChild)
     }
 
     textNode.options.forEach((option) => {
@@ -33,14 +33,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const textNodes = [
     {
-      id: 1,
+      id: 0,
+      text: " the Gathering is an important rite of passage for Jedi younglings. It is a crucial step in their training and development on their path to becoming Jedi Knights.Younglings are selected based on their age and readiness to participate in the Gathering. Jedi Masters oversee this process.Each youngling embarks on an individual quest, often to a distant, dangerous, or exotic location. During their quest, they are expected to demonstrate qualities like courage, wisdom, and selflessness. This journey is not only physical but also spiritual, as it challenges their understanding of the Force and themselves.  Through the Gathering, younglings learn important life lessons and strengthen their bond with the Force. They also gain a deeper understanding of the responsibilities and duties of a Jedi Knight. After successfully completing the Gathering and constructing their lightsabers, younglings may be selected as Padawans by Jedi Knights or Masters, marking the next step in their journey to becoming full-fledged Jedi." ,
+      options: [
+        {
+          text: "Start Your Trials",
+          nextText: 1,  
+        },
+      ],
+    },
+    {
       id: 1,
       text:
         "Youngling, This is your first trial. Look for an Invisec, home to many species of Aliens, called Republic City. Held there, away from the Humanoids that claim Coruscant, a young Taung child. Bring her back to her home planet Roon. This is a very dangerous mission as most Jedi have been extinct; Be mindful and aware. STAY LOW!",
       options: [
         {
           text: "Throw a party announcing you're going to be a Jedi",
-          setState: { Jedi: true },
           nextText: 2,
         },
         {
@@ -156,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "Succumb to the Dark Side and Unleash Your Anger",
           nextText: 11,
-        }
+        },
       ],
     },
     {
@@ -224,7 +232,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "Walk the streets of Coruscant and move through the crowd.",
           nextText: 17,
-        }
+        },
         ],
     },
     {
@@ -238,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "Deflect the blaster bolt back at Imperial officer.",
           nextText: 25,
-        }
+        },
         ],
     },
     {
@@ -252,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "Deflect the blaster blolt at the Imperial officer.",
           nextText: 25,
-        }
+        },
         ],
     },
     {
@@ -266,7 +274,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "Ignite your lightsaber and prepare for a confrontation.",
           nextText: 22,
-        }
+        },
         ],
     },
     {
@@ -280,7 +288,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "Show the Imperial Stormtrooper mercy.",
           nextText: 19,
-        }
+        },
         ],
     },
     {
@@ -294,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "Navigate the city from the rooftops.",
           nextText: 26,
-        }
+        },
         ],
     },
     {
@@ -325,7 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
           text: "Stand Your Ground.",
           nextText: 23,
         },
-      ]
+      ],
     },
     {
       id: 23,
@@ -338,7 +346,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "Put away your lightsaber away.",
           nextText: 24,
-        }
+        },
         ],
     },
     {
@@ -382,7 +390,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "Take safe route to Roon.",
           nextText: 30,
-        }
+        },
         ],
     },
     {
@@ -406,7 +414,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "",
           nextText: ,
-        }
+        },
         ],
     },
     {
@@ -420,7 +428,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           text: "",
           nextText: ,
-        }
+        },
         ],
     },
   ];

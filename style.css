@@ -23,10 +23,6 @@ body {
     box-shadow: 0 0 20px 2px;
     text-align: center;
 }
-
-
-
-
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -58,12 +54,10 @@ body {
     transform: scale(0.8);
     transition: opacity 0.3s, transform 0.3s;
   }
-  
   .glow-button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(64, 218, 62);
   }
-  
   .glow-button:hover::before {
     opacity: 10;
     transform: scale(1.2);
