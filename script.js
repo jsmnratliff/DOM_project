@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 12,
-      text: "As you exit the building, leaving a trail of destruction behind you, the refugees who once looked to you for hope now regard you with fear and mistrust. They have witnessed the fall of a Jedi to the dark side, and they know that a new threat has emerged. Your actions have consequences, and the darkness that now surrounds you will lead you down a path of destruction and despair. The Empire may have been your enemy, but you've become something far more menacing. The galaxy trembles in the face of your newfound malevolence, and your journey takes a sinister turn as you embrace the dark side's power.",
+      text: "Leaving a trail of destruction behind you, the refugees who once looked to you for hope now regard you with fear and mistrust. They have witnessed the fall of a Jedi to the dark side, and they know that a new threat has emerged. Your actions have consequences, and the darkness that now surrounds you will lead you down a path of destruction and despair. The Empire may have been your enemy, but you've become something far more menacing. The galaxy trembles in the face of your newfound malevolence, and your journey takes a sinister turn as you embrace the dark side's power.",
       options: [
         {
           text: "Start Over",
@@ -312,13 +312,9 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "You clutch your ignited lightsaber nervously, trying to emulate the Jedi you've seen in action. The approaching Imperial reinforcements stop in their tracks, taken aback by the unexpected sight of a young Jedi. Trembling but determined, you speak up, 'We don't want any trouble. We just want to get home. This is the only way we know.' The Stormtroopers exchange glances, and the senior officer steps forward, crouching down to your eye level. They ask gently,'Where is your home, young one? Why are you alone in this dangerous place?' With sincerity in your voice, you explain, 'I'm not alone. These aliens are my friends. We just want to go back to Roon. Please, we don't want to fight.' The officer considers your words carefully and radios their superiors. After a tense moment, they nod and say, 'We will grant you safe passage this time. But remember, young Jedi, not all of us are as forgiving. You must be careful.' With the Stormtroopers allowing you and your alien friends to pass, you lead them to",
       options: [
         {
-          text: "",
-          nextText: ,
+          text: "Pass though the Imperial Army.",
+          nextText: 27,
         },
-        {
-          text: "",
-          nextText: ,
-        }
         ],
     },
     {
@@ -330,7 +326,6 @@ document.addEventListener("DOMContentLoaded", function () {
           nextText: 23,
         },
       ]
-    }
     },
     {
       id: 23,
@@ -338,7 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
       options: [
         {
           text: "Kill the citizen.",
-          nextText: ,
+          nextText: 12,
         },
         {
           text: "Put away your lightsaber away.",
@@ -348,17 +343,13 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 24,
-      text: "You extinguish your lightsaber. With the immediate threat resolved, you continue to guide the little Taung girl and the other children through. You're one step closer to safely returning the child to her home planet, Roon, and your reputation as a Jedi grows stronger."      options: [
+      text: "You extinguish your lightsaber. With the immediate threat resolved, you continue to guide the little Taung girl and the other children through. You're one step closer to safely returning the child to her home planet, Roon, and your reputation as a Jedi grows stronger.",
       options: [
         {
-          text: "LEave the city of Coruscant.",
+          text: "Leave the city of Coruscant.",
           nextText: 27,
         },
-        {
-          text: "",
-          nextText: ,
-        }
-      ]
+      ],
     },
     {
       id: 25,
@@ -372,16 +363,12 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 26,
-      text: "you sense that the danger has not entirely passed. Imperial patrols continue to sweep the city streets below, and the night is far from quiet. You decide to stay hidden, keeping the Taung girl and the other children out of sight to avoid any further confrontation.Your goal now is to wait for the opportune moment to make your escape. You watch the movements of the Stormtroopers and their patrol patterns, relying on your Jedi intuition to time your departure precisely. After a tense hour of waiting, you spot an opening. The Imperial patrols have moved on to another area of the city, leaving a brief window of opportunity. You carefully guide the children down from the rooftops, ensuring they move silently and swiftly. ",
+      text: "You sense that the danger has not entirely passed. Imperial patrols continue to sweep the city streets below, and the night is far from quiet. You decide to stay hidden, keeping the Taung girl and the other children out of sight to avoid any further confrontation.Your goal now is to wait for the moment to make your escape. You watch the movements of the Stormtroopers and their patrol patterns, relying on your Jedi intuition to time your departure precisely. After a tense hour of waiting, you spot an opening. The Imperial patrols have moved on to another area of the city, leaving a brief window of opportunity. You carefully guide the children down from the rooftops, ensuring they move silently and swiftly. ",
       options: [
         {
-          text: "",
-          nextText: ,
+          text: "Someone recognizes you and waves you towards their direction.",
+          nextText: 28,
         },
-        {
-          text: "",
-          nextText: ,
-        }
         ],
     },
     {
@@ -393,23 +380,19 @@ document.addEventListener("DOMContentLoaded", function () {
           nextText: 29,
         },
         {
-          text: "",
-          nextText: ,
+          text: "Take safe route to Roon.",
+          nextText: 30,
         }
         ],
     },
     {
       id: 28,
-      text: "",
+      text: "To your surprise, the citizen reveals their true identity. A wise old Jedi in hiding.",
       options: [
         {
-          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
-          nextText: ,
-        },
-        {
           text: "",
-          nextText: ,
-        }
+          nextText:
+        },
         ],
     },
     {
@@ -428,10 +411,10 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 30,
-      text: "",
+      text: "The journey to Roon is long, but you are resolute. Guided by the Force, you navigate the treacherous spaceways, avoiding Imperial patrols and maintaining a low profile. Your piloting skills and the stolen shuttle allow you to make a swift, uneventful journey back to the Roon.",
       options: [
         {
-          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
+          text: "",
           nextText: ,
         },
         {
