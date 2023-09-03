@@ -163,17 +163,9 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "With the Force as your ally, you focus your energy on lifting the key hanging beside the prison cells. A soft, blue glow surrounds the key, and it slowly rises into the air, guided by your concentration. The children inside the cells watch in amazement as the key effortlessly turns and unlocks each prison door.As the children step out of their cells, a sense of relief and gratitude fills the air. You've successfully rescued them, and their trust in you as a Jedi is unwavering.",
       options: [
         {
-          text: "",
-          nextText: 9,
+          text: "On with the mission",
+          nextText: 13,
         },
-        {
-          text: "",
-          nextText: 10,
-        },
-        {
-          text: "",
-          nextText: 11,
-        }
       ],
     },
     {
@@ -213,6 +205,255 @@ document.addEventListener("DOMContentLoaded", function () {
           nextText: 1,
         },
       ],
+    },
+    {
+      id: 13,
+      text: "You motion for the children to follow you silently as you make your way through the narrow corridor, hugging the shadows. Your Jedi training allows you to move with grace and stealth. Suddenly you hear the distant voices of approaching Stormtroopers",
+      options: [
+        {
+          text: "Your heart races as you guide the children into a concealed alcove just in time. The footsteps of the Imperial soldiers echo through the corridor as they pass by, oblivious to your presence",
+          nextText: 14,
+        },
+        {
+          text: "",
+          nextText: ,
+        },
+      ],
+    },
+    {
+      id: 14,
+      text: "The footsteps of the Imperial soldiers echo through the corridor as they pass by, oblivious to your presence. Once the Stormtroopers are out of sight, you continue to lead the children through the complex, avoiding patrols and utilizing the Force to sense danger. You find a ventilation shaft that leads to the outside, a narrow but viable escape route. Gently, you help the little Taung girl and the other children climb into the ventilation shaft one by one. You follow them, moving quietly and swiftly. The cool night air hits your face as you emerge from the shaft onto a rooftop. From this vantage point, you can see the sprawling cityscape of Coruscant below. It's a dangerous place, but you have the Force and the determination to guide you.",
+      options: [
+        {
+          text: "Stay above ground and move through the city, back to your (starfighter)",
+          nextText: 15,
+        },
+        {
+          text: "head into the streets of Coruscant and move through the crowd.",
+          nextText: 17,
+        }
+        ],
+    },
+    {
+      id: 15,
+      text: "As you make your way across the rooftops, you sense a disturbance in the Force nearby. A lone Stormtrooper stands guard on a rooftop not far from your position. His helmeted head turns as if he's noticed something amiss. With a stern but silent nod to the little Taung girl, you step forward, activating your lightsaber with a sharp, blue hum. The Stormtrooper spots you and raises his blaster rifle, taking aim. The blaster bolt flies toward you, but you",
+      options: [
+        {
+          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 16,
+      text: "The blaster bolt flies toward you, but you effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky. With a graceful leap, you close the gap between you and the Stormtrooper in an instant. The Stormtrooper fires a barrage of blaster shots, but your Jedi reflexes allow you to deflect each one, sending them back toward their source. The rooftop battle intensifies as you engage in a deadly dance of blaster bolts and lightsaber strikes.",
+      options: [
+        {
+          text: "Disarm the Imperial Stormtrooper",
+          nextText: 18,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 17,
+      text: "Gently, you help the little Taung girl and the other children blend in with the bustling crowd on the city streets. Cloaked by the anonymity of the crowd, you move quietly and swiftly, your lightsaber concealed beneath your robes. The cool night air fills your lungs as you navigate the bustling cityscape of Coruscant below. It's a dangerous place, with Imperial presence everywhere, but you have the Force and the determination to guide you. As you make your way through the crowded streets, you sense a group of Stormtroopers closing in on your location. They're searching for any sign of the escaped children, and you know you must be cautious. Suddenly, the Stormtroopers spot you and the children in the crowd. Blasters are raised, and a tense standoff begins. With your lightsaber concealed, you have a difficult choice to make. Do you attempt a peaceful resolution and negotiate with the Stormtroopers, or do you ignite your lightsaber and prepare for a confrontation in the midst of the crowded streets? The fate of the little Taung girl and the other children rests in your hands, and the decisions you make now will shape their destiny.",
+      options: [
+        {
+          text: "Negotiate with the Stormtroopers.",
+          nextText: 21,
+        },
+        {
+          text: "Ignite your lightsaber and prepare for a confrontation.",
+          nextText: 22,
+        }
+        ],
+    },
+    {
+      id: 18,
+      text: "With a swift and precise move, you disarm the Stormtrooper, sending his blaster rifle flying. Cornered and defeated, he removes his helmet to reveal a terrified, young face beneath. The fear in his eyes is palpable. You take a deep breath, knowing that even an enemy can be shown mercy.",
+      options: [
+        {
+          text: "Kill the Imperial Stormtrooper.",
+          nextText: 20,
+        },
+        {
+          text: "Show the Imperial Stormtrooper mercy.",
+          nextText: 19,
+        }
+        ],
+    },
+    {
+      id: 19,
+      text: "You use the Force to calm his fear and influence his thoughts, implanting the idea that he should leave this life of servitude to the Empire behind. With a dazed expression, the Stormtrooper stumbles backward and then turns to flee from the rooftop, leaving his helmet behind. You watch him disappear into the night, his path forever changed. Turning back to the little Taung girl and the other children, you see a mixture of awe and gratitude in their eyes. The rooftop battle has come to an end, but the danger still lurks in the shadows of Coruscant.",
+      options: [
+        {
+          text: "",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 20,
+      text: "",
+      options: [
+        {
+          text: "",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 21,
+      text: "",
+      options: [
+        {
+          text: "",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 22,
+      text: "With a quick and decisive motion, you ignite your lightsaber, its brilliant blue blade blazing to life. The distinctive hum of the weapon cuts through the noise of the crowd, drawing the attention of everyone nearby, including the group of Stormtroopers. The Imperial soldiers, taken aback by your sudden display of power, hesitate for a moment. The citizens of Coruscant, initially fearful, begin to murmur and whisper, their curiosity piqued. The leader of the Stormtroopers, recognizing the threat you pose, orders his squad to stand down and lower their blasters. A tense standoff ensues, as neither side wishes to escalate the situation further in the heart of the city. You hold your ground, lightsaber raised, ready to defend the little Taung girl and the other children at all costs. The Jedi's presence and the ignited lightsaber send a clear message that you won't back down.",
+      options: [
+        {
+          text: "Stand Your Ground.",
+          nextText: 23,
+        },
+      ]
+    }
+    },
+    {
+      id: 23,
+      text: "",
+      options: [
+        {
+          text: "",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 24,
+      text: "",
+      options: [
+        {
+          text: "",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 25,
+      text: "",
+      options: [
+        {
+          text: "",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 26,
+      text: "",
+      options: [
+        {
+          text: "",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 27,
+      text: "",
+      options: [
+        {
+          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 28,
+      text: "",
+      options: [
+        {
+          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 29,
+      text: "",
+      options: [
+        {
+          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
+    },
+    {
+      id: 30,
+      text: "",
+      options: [
+        {
+          text: "Effortlessly deflect it with your lightsaber, sending it harmlessly into the night sky.",
+          nextText: ,
+        },
+        {
+          text: "",
+          nextText: ,
+        }
+        ],
     },
   ];
 
