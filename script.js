@@ -452,28 +452,25 @@ document.addEventListener("DOMContentLoaded", function () {
           {
             text: "Begin the search for the Taung child's family in the nearby settlements.",
             nextText: 34,
-          }
+          },
           {
-            text: "",
-            nextText: ,
+            text: "Second guess your potential.",
+            nextText: 37,
           },
         ],
       },
       {
         id: 34,
-        text: "you eventually come across a humble desert settlement. There, you meet the Taung child's parents, who have been anxiously waiting for any news of their missing daughter. When they see her safe and sound by your side, their relief and gratitude are palpable. The parents express their deepest thanks and offer you a small, beautifully crafted box. Inside the box, you find a radiant kyber crystal, its vibrant colors shimmering with the Force. The crystal is a precious gift, a symbol of their gratitude and a token of their faith in you as a Jedi.",
+        text: "you eventually come across a humble desert settlement. There, you meet the Taung child's parents, who have been anxiously waiting for any news of their missing daughter. When they see her safe and sound by your side, their relief and gratitude are palpable. The parents express their deepest thanks and offer you a small, beautifully crafted box. Inside the box, you find a radiant lavender kyber crystal, its vibrant color shimmering with the Force. The crystal is a precious gift, a symbol of their gratitude and a token of their faith in you as a Jedi.",
         options: [
           {
             text: "Study the kyber crystal.",
             nextText: 35,
           },
           {
-            text: "",
-            nextText: ,
+            text: "Reflect on your journey from this mission, understanding your future as a Padawan.",
+            nextText: 38,
           },
-          {
-            text: "Kill the Taung girl's parents and runaway to join the dark side."
-          }
           ],
       },
       {
@@ -485,8 +482,9 @@ document.addEventListener("DOMContentLoaded", function () {
             nextText: 36,
           },
           {
-            text: "Kill the Taung girl's parents and runaway to join the dark side."
-          }
+            text: "Second guess your potential.",
+            nextText: 37,
+          },
           ],
       },
       {
@@ -498,6 +496,26 @@ document.addEventListener("DOMContentLoaded", function () {
             nextText: 0,
           },
           ],
+      },
+      {
+        id: 37,
+        text: "As you hold the kyber crystal in your hand, a wave of doubt and fear washes over you. The weight of the responsibility ahead seems insurmountable. You leave the little girl with her parents, leaving Roon behind. you wander the galaxy aimlessly, never finding your true purpose as a Jedi. Over time, your connection to the Force weakens, and you become little more than a wanderer, haunted by the knowledge that you once had the potential to make a difference but chose to squander it. Years pass, and the galaxy continues to suffer under the oppressive rule of the Empire. You watch from the shadows, a mere spectator to the countless injustices around you. Your decision to abandon your mission haunts you, and you live out your days in regret, never realizing your true potential as a Jedi. This ending reflects the consequences of abandoning your mission and the potential for a negative outcome in your journey.",
+        options: [
+          {
+          text: "Start over?",
+          nextText: 0,
+        },
+        ],
+      },
+      {
+        id: 38,
+        text: "As you accept the radiant lavender kyber crystal from the Taung child's parents, you feel a rush of power that you've never experienced before. It's intoxicating, and you can't resist the temptation to explore its dark potential further. Instead of returning to the Jedi Order with the crystal, you decide to keep it hidden and embark on a journey of your own. You disappear into the galaxy, seeking knowledge and power beyond the teachings of the Jedi. Over time, you become a formidable Force user, but your pursuit of power comes at a great cost. You commit heinous acts, manipulating others and even taking innocent lives to fuel your dark ambitions. The crystal's dark influence corrupts your once-pure intentions, and you become a feared and notorious figure in the galaxy.",
+        options: [
+          { 
+            text: "Start Over?",
+            nextText: 0,
+          },
+        ],
       },
       ],
     },
