@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
       options: [
         {
           text: "Start Over",
-          nextText: 1,
+          nextText: 0,
         },
       ],
     },
@@ -197,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
       options: [
         {
           text: "Start Over",
-          nextText: 1,
+          nextText: 0,
         },
       ],
     },
@@ -517,8 +517,6 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         ],
       },
-      ],
-    },
   ];
 
   function startGame() {
