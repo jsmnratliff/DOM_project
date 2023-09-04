@@ -389,12 +389,16 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 28,
-      text: "To your surprise, the citizen reveals their true identity. A wise old Jedi in hiding.",
+      text: "To your surprise, the citizen reveals their true identity. A wise old Jedi in hiding. The wise old Jedi in hiding looks at you with a knowing gaze. 'I sensed your presence and your mission,' the old Jedi says. 'You carry the weight of an important task, and the Force has guided you to me.' You feel a sense of relief knowing that youre not alone in this dangerous journey. 'How can you assist me?' you ask.",
       options: [
         {
-          text: "",
-          nextText:
+          text: "Ask for guidance and help from the old Jedi.",
+          nextText: 32,
         },
+        {
+          text: "Thank the old Jedi for revealing themselves and for helping you, then continue your mission." ,
+          nextText: 31,
+        }
         ],
     },
     {
@@ -402,28 +406,100 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "You make the jump to lightspeed, leaving the bustling city behind. Your trial has been a success, and you've demonstrated your resourcefulness and ability to adapt to challenging situations. Guided by the Force, you navigate the treacherous spaceways, avoiding Imperial patrols and maintaining a low profile. Your piloting skills and the stolen shuttle allow you to make a swift, uneventful journey back to the Taung girl's homeworld",
       options: [
         {
-          text: "",
-          nextText: 1,
+          text: "Decend into the plant Roon.",
+          nextText: 33,
         },
+      ],
+    },
+    {
+      id: 30,
+      text: "The journy to Roon is long, but you are resolute. Guided by the Force, you navigate the treacherous spaceways, avoiding Imperial patrols and maintaining a low profile. Your piloting skills and the stolen shuttle allow you to make a swift, uneventful journey back to the Roon.",
+      options: [
         {
-          text: "",
-          nextText: 1,
+          text: "Decend into the planet Roon.",
+          nextText: 33,
         },
         ],
     },
     {
-      id: 30,
-      text: "The journey to Roon is long, but you are resolute. Guided by the Force, you navigate the treacherous spaceways, avoiding Imperial patrols and maintaining a low profile. Your piloting skills and the stolen shuttle allow you to make a swift, uneventful journey back to the Roon.",
+      id: 31,
+      text: "'Wait!' says the old wise Jedi, reaching into their robes. The Jedi's hand emerges, holding a small, shimmering kyber crystal. Its lavender and it glistens with a faint, otherworldly glow. 'Take this kyber crystal,' the old Jedi says, 'It is a symbol of your connection to the Force and a source of power for your lightsaber. Use it wisely.'",
       options: [
         {
-          text: "",
-          nextText: 1,
+          text: "Gratefully accept the kyber crystal and thank the old wise Jedi." ,
+          nextText: 27,
         },
-        {
-          text: "",
-          nextText: 1,
-        },
+      ],
+      },
+      {
+        id: 32,
+        text: "You look to the old Jedi, eager for more guidance. 'Master,' you ask, 'what more can you teach me to ensure the success of this mission?' The old Jedi nods, their eyes filled with wisdom. 'Remember, young one, the Force is your ally, but it must be used wisely. Trust in your instincts, and let the Force guide your actions. In moments of doubt, seek inner peace and clarity. Your lightsaber is a tool of defense, not aggression. Use it to protect, not to harm. And above all, never underestimate the power of compassion and understanding. These qualities will lead you to make choices that bring balance to the Force.'",
+        options: [
+          {
+            text: "Thank the old Jedi and take their advice to heart.",
+            nextText: 31,
+          },
+          {
+            text: "You nod in gratitude and acceptance of the old Jedi's wisdom. 'Thank you, Master,' you say with sincerity. 'Your guidance means everything to me, and I will carry your teachings with me on this journey.' The old Jedi smiles warmly and places a hand on your shoulder. 'May the Force be with you, young one,' they reply. 'Remember, you have the potential to do great things, but it's your choices that define you.'",
+            nextText: 31,
+          },
+          ],
+      },
+      {
+        id: 33,
+        text: "As the shuttle's landing ramp descends, you step out onto the surface of Roon, relieved to have completed your long and perilous journey. The warm, arid breeze of the desert planet greets you. You can see the vast, rolling dunes stretching out in every direction, and the twin suns beat down overhead. You've reached your destination, but there's still one crucial task left: reuniting the young Taung child with her family." ,
+        options: [
+          {
+            text: "Begin the search for the Taung child's family in the nearby settlements.",
+            nextText: 34,
+          }
+          {
+            text: "",
+            nextText: ,
+          },
         ],
+      },
+      {
+        id: 34,
+        text: "you eventually come across a humble desert settlement. There, you meet the Taung child's parents, who have been anxiously waiting for any news of their missing daughter. When they see her safe and sound by your side, their relief and gratitude are palpable. The parents express their deepest thanks and offer you a small, beautifully crafted box. Inside the box, you find a radiant kyber crystal, its vibrant colors shimmering with the Force. The crystal is a precious gift, a symbol of their gratitude and a token of their faith in you as a Jedi.",
+        options: [
+          {
+            text: "Study the kyber crystal.",
+            nextText: 35,
+          },
+          {
+            text: "",
+            nextText: ,
+          },
+          {
+            text: "Kill the Taung girl's parents and runaway to join the dark side."
+          }
+          ],
+      },
+      {
+        id: 35,
+        text: "With this kyber crystal in your possession, you know that it can be used to construct a lightsaber, a weapon and tool that will serve you on your continued journey as a Jedi Knight. You thank the Taung child's parents and promise to continue your work as a guardian of peace and justice in the galaxy.",
+        options: [
+          {
+            text: "Finish your trial.",
+            nextText: 36,
+          },
+          {
+            text: "Kill the Taung girl's parents and runaway to join the dark side."
+          }
+          ],
+      },
+      {
+        id: 36,
+        text: "Your mission on Roon has come to a close, but your path as a Jedi is far from over. With renewed purpose and a new kyber crystal in your possession, you are ready to face the challenges and adventures that lie ahead.you return to the Jedi Order with a renewed sense of purpose. The Jedi Council recognizes your growth, courage, and commitment to the Jedi way. As you progress in your training, you are eventually chosen as a Padawan by a wise and experienced Jedi Knight. Your story continues as you serve the Jedi Order, protect the innocent, and uphold the principles of peace and justice throughout the galaxy. The path of a Jedi is a lifelong one, and you are committed to walking it with honor and integrity.",
+        options: [
+          {
+            text: "Start Over?",
+            nextText: 0,
+          },
+          ],
+      },
+      ],
     },
   ];
 
