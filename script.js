@@ -2,33 +2,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const textElement = document.getElementById("text");
   const optionButtonsElement = document.getElementById("option-buttons");
 
-  let state = {};
-
-  function showTextNode(textNodeId) {
-    const textNode = textNodes.find((node) => node.id === textNodeId);
-    textElement.innerText = textNode.text;
-    while (optionButtonsElement.firstChild) {
-      optionButtonsElement.removeChild(optionButtonsElement.firstChild);
-    }
-    textNode.options.forEach((option) => {
-      const button = document.createElement("button");
-      button.innerText = option.text;
-      button.classList.add("glow-button");
-      button.addEventListener("click", () => selectOption(option));
-      optionButtonsElement.appendChild(button);
-    });
-  }
-
-  function selectOption(option) {
-    if (option.setState) {
-      state = Object.assign(state, option.setState);
-    }
-    showTextNode(option.nextText);
-  }
    const textNodes = [
     {
       id: 0,
-      text: " the Gathering is an important rite of passage for Jedi younglings. It is a crucial step in their training and development on their path to becoming Jedi Knights.Younglings are selected based on their age and readiness to participate in the Gathering. Jedi Masters oversee this process.Each youngling embarks on an individual quest, often to a distant, dangerous, or exotic location. During their quest, they are expected to demonstrate qualities like courage, wisdom, and selflessness. This journey is not only physical but also spiritual, as it challenges their understanding of the Force and themselves.  Through the Gathering, younglings learn important life lessons and strengthen their bond with the Force. They also gain a deeper understanding of the responsibilities and duties of a Jedi Knight. After successfully completing the Gathering and constructing their lightsabers, younglings may be selected as Padawans by Jedi Knights or Masters, marking the next step in their journey to becoming full-fledged Jedi." ,
+      text: "The Gathering is an important rite of passage for Jedi younglings. It is a crucial step in their training and development on their path to becoming Jedi Knights.Younglings are selected based on their age and readiness to participate in the Gathering. Jedi Masters oversee this process.Each youngling embarks on an individual quest, often to a distant, dangerous, or exotic location. During their quest, they are expected to demonstrate qualities like courage, wisdom, and selflessness. This journey is not only physical but also spiritual, as it challenges their understanding of the Force and themselves.  Through the Gathering, younglings learn important life lessons and strengthen their bond with the Force. They also gain a deeper understanding of the responsibilities and duties of a Jedi Knight. After successfully completing the Gathering and constructing their lightsabers, younglings may be selected as Padawans by Jedi Knights or Masters, marking the next step in their journey to becoming full-fledged Jedi." ,
       options: [
         {
           text: "Start Your Trials",
@@ -519,9 +496,26 @@ document.addEventListener("DOMContentLoaded", function () {
       },
   ];
 
-  function startGame() {
-    showTextNode(0); // Start the game with the initial text node ID
+
+
+  function showTextNode(textNodeId) {
+    const textNode = textNodes.find((node) => node.id === textNodeId);
+    textElement.innerText = textNode.text;
+    while (optionButtonsElement.firstChild) {
+      optionButtonsElement.removeChild(optionButtonsElement.firstChild);
+    }
+    textNode.options.forEach((option) => {
+      const button = document.createElement("button");
+      button.innerText = option.text;
+      button.classList.add("glow-button");
+      button.addEventListener("click", () => selectOption(option));
+      optionButtonsElement.appendChild(button);
+    });
   }
 
-  startGame();
+  function selectOption(option) {
+    showTextNode(option.nextText);
+  }
+
+  showTextNode(0);
 });
