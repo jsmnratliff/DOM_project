@@ -12,16 +12,32 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: black;
+}
+.background {
+  position: fixed;
+  top: 0; 
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('../Starfield.jpg');
+  background-size: cover;
 }
 .container {
+  position: relative;
+  z-index: 1;
     width: 65%;
     max-width: 600px;
     background-color: gray;
-    padding: 20px;
     border-radius: 40px;
     box-shadow: 0 0 20px 2px;
     text-align: center;
+    padding: 17px;
+}
+#text {
+  background-color: rgba(0, 0, 0, 0.39);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 .btn-grid {
     display: grid;
@@ -38,28 +54,28 @@ body {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    padding: 20px, 80px;
+    padding: 15px, 15px;
     font-size: 14px;
     color: white;
     outline:rgba(0, 0, 0, 0);
     transition: transform 0.5s, box-shadow 0.5s;
 }
 .glow-button::before {
-    content:"";
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     background: radial-gradient(circle, rgba(233, 80, 80, 0.2) 0%, rgba(255, 255, 255, 0) 80%);
-    opacity: 0;
+    opacity: 10;
     transform: scale(0.8);
     transition: opacity 0.3s, transform 0.3s;
   }
   .glow-button:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px rgb(64, 218, 62);
+    box-shadow: 0 0 35px rgb(64, 218, 62);
   }
   .glow-button:hover::before {
-    opacity: 10;
+    opacity: 100;
     transform: scale(1.2);
   }
   
