@@ -5,18 +5,17 @@ document.addEventListener("DOMContentLoaded", function () {
    const textNodes = [
     {
       id: 0,
-      text: "The Gathering is an important rite of passage for Jedi younglings. It is a crucial step in their training and development on their path to becoming Jedi Knights.Younglings are selected based on their age and readiness to participate in the Gathering. Jedi Masters oversee this process.Each youngling embarks on an individual quest, often to a distant, dangerous, or exotic location. During their quest, they are expected to demonstrate qualities like courage, wisdom, and selflessness. This journey is not only physical but also spiritual, as it challenges their understanding of the Force and themselves.  Through the Gathering, younglings learn important life lessons and strengthen their bond with the Force. They also gain a deeper understanding of the responsibilities and duties of a Jedi Knight. After successfully completing the Gathering and constructing their lightsabers, younglings may be selected as Padawans by Jedi Knights or Masters, marking the next step in their journey to becoming full-fledged Jedi." ,
+      text: "The Gathering is an important rite of passage for Jedi younglings. It is a crucial step in their training and development on their path to becoming Jedi Knights. Younglings are selected based on their age and readiness to participate in the Gathering. Jedi Masters oversee this process. Each youngling embarks on an individual quest, often to a distant, dangerous, or exotic location. During their quest, they are expected to demonstrate qualities like courage, wisdom, and selflessness. This journey is not only physical but also spiritual, as it challenges their understanding of the Force and themselves. Through the Gathering, younglings learn important life lessons and strengthen their bond with the Force. They also gain a deeper understanding of the responsibilities and duties of a Jedi Knight. After successfully completing the Gathering and constructing their lightsabers, younglings may be selected as Padawans by Jedi Knights or Masters, marking the next step in their journey to becoming full-fledged Jedi." ,
       options: [
         {
-          text: "Start Your Trials",
+          text: "Start Your Trial",
           nextText: 1,  
         },
       ],
     },
     {
       id: 1,
-      text:
-        "Youngling, This is your first trial. Look for an Invisec, home to many species of Aliens, called Republic City. Held there, away from the Humanoids that claim Coruscant, a young Taung child. Bring her back to her home planet Roon. This is a very dangerous mission as most Jedi have been extinct; Be mindful and aware. STAY LOW!",
+      text: "Youngling, This is your first trial. Look for an Invisec, home to many species of Aliens, called Republic City. Held there, away from the Humanoids that claim Coruscant, a young Taung child. Bring her back to her home planet Roon. This is a very dangerous mission as most Jedi have been extinct; Be mindful and aware.",
       options: [
         {
           text: "Throw a party announcing you're going to be a Jedi",
@@ -37,8 +36,12 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "Stormtroopers were assessing the area and shot you in the head with their blasters. You are now Dead.",
       options: [
         {
-          text: "Start Over",
+          text: "Start Over?",
           nextText: 0,
+        },
+        {
+          text: "Jedi Code",
+          nextText: 39,
         },
       ],
     },
@@ -150,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 10,
-      text: "With your lightsaber ignited, you charge into the front door, determined to confront the Stormtroopers directly. Your blue blade crackles with energy as you engage in a fierce battle with the Imperial forces. Blaster bolts fly through the air, and the clashing of lightsabers echoes through the building's halls. Your Jedi skills prove formidable as you swiftly dispatch the Stormtroopers, one by one. Their numbers dwindle, and fear grips those who remain. You reach the imprisoned Taung child, cutting through the cell door's lock with your lightsaber. She emerges, terrified but safe, and you lead her to safety. The sight of the Jedi's bravery and combat prowess inspires hope among the other children, however, your confrontation with the Stormtroopers doesn't go unnoticed. Imperial reinforcements are on their way, and the battle is far from over. You must now make a daring escape and continue your mission to Roon.", 
+      text: "With your lightsaber ignited, you charge into the front door, determined to confront the Stormtroopers directly. Your blue blade crackles with energy as you engage in a fierce battle with the Imperial forces. Blaster bolts fly through the air, and the clashing of lightsabers echoes through the building's halls. Your Jedi skills prove formidable as you swiftly dispatch the Stormtroopers, one by one. Their numbers dwindle, and fear grips those who remain. You reach the imprisoned Taung child, cutting through the cell door's lock with your lightsaber. She emerges, terrified but safe, and you lead her to safety. The sight of the Jedi's bravery and combat prowess inspires hope among the other children, however, your confrontation with the Stormtroopers doesn't go unnoticed. Imperial reinforcements are on their way, and the battle is far from over. You must now make a daring escape and continue your mission to Roon.",
       options: [
         {
           text: "On with the mission.",
@@ -229,7 +232,7 @@ document.addEventListener("DOMContentLoaded", function () {
           nextText: 18,
         },
         {
-          text: "Deflect the blaster blolt at the Imperial officer.",
+          text: "Deflect the blaster bolt at the Imperial officer.",
           nextText: 25,
         },
         ],
@@ -267,7 +270,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "You use the Force to calm his fear and influence his thoughts, implanting the idea that he should leave this life of servitude to the Empire behind. With a dazed expression, the Stormtrooper stumbles backward and then turns to flee from the rooftop, leaving his helmet behind. You watch him disappear into the night, his path forever changed. Turning back to the little Taung girl, you see a mixture of awe and gratitude in her eyes. The rooftop battle has come to an end, but the danger still lurks in the shadows of Coruscant.",
       options: [
         {
-          text: "Sneak off the rooftops, into the city of Doruscant.",
+          text: "Sneak off the rooftops, into the city of Coruscant.",
           nextText: 17,
         },
         {
@@ -278,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 20,
-      text: "You grip your ignited lightsaber tightly, emotions twisted with anger and determination. The approaching Imperial reinforcements pause, taken aback by the fierce resolve in your eyes. With a defiant tone, you demand, 'We won't be stopped! We're going home, and you can't stand in our way!' The Stormtroopers raise their blasters, ready to confront you, but the senior officer signals them to hold fire. They step forward cautiously and ask, 'Why are you so angry, young one? What do you hope to achieve?' You respond, 'We have suffered enough! We won't be oppressed any longer. We're leaving, and you will not stop us!' Theres a tense standoff as you and the Stormtroopers exchange glares. The officer radios their superiors, and the situation remains on the brink. After what seems like an eternity, the officer lowers their blaster and sighs, 'Very well, child Jedi. We will let you go, but remember the consequences of your actions today. This will not be forgotten.' With a nod, you lead your alien friends away from the confrontation.", 
+      text: "You grip your ignited lightsaber tightly, emotions twisted with anger and determination. The approaching Imperial reinforcements pause, taken aback by the fierce resolve in your eyes. With a defiant tone, you demand, 'We won't be stopped! We're going home, and you can't stand in our way!' The Stormtroopers raise their blasters, ready to confront you, but the senior officer signals them to hold fire. They step forward cautiously and ask, 'Why are you so angry, young one? What do you hope to achieve?' You respond, 'We have suffered enough! We won't be oppressed any longer. We're leaving, and you will not stop us!' There's a tense standoff as you and the Stormtroopers exchange glares. The officer radios their superiors, and the situation remains on the brink. After what seems like an eternity, the officer lowers their blaster and sighs, 'Very well, child Jedi. We will let you go, but remember the consequences of your actions today. This will not be forgotten.' With a nod, you lead your alien friends away from the confrontation.",
       options: [
         {
           text: "On with the mission",
@@ -335,7 +338,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "With a swift and merciless movement of your lightsaber, you deflect the blaster bolt back at the Stormtrooper. The red beam of the bolt streaks through the air, finding its mark with deadly precision. The Stormtrooper's body jerks as the bolt strikes him squarely in the chest, and he crumples to the rooftop, lifeless. The little Taung girl looks at you, her eyes filled with both fear and awe. She has witnessed your display of power, and the choices you make from this point forward will shape her perception of the Force.You stand over the fallen Stormtrooper, the dark side of the Force swirling around you, fueled by your anger and power. In this moment of triumph, you feel the temptation to embrace the Sith path, to let your anger and hatred consume you. You take a moment to regain your composure and extinguish your lightsaber. The little Taung girl looks at you with a mix of fear and curiosity, but she senses that you mean her no harm. You offer her a reassuring smile and gently pat her on the shoulder.",
       options: [
         {
-          text: "Keep moving foward through the dark.",
+          text: "Keep moving forward through the dark.",
           nextText: 27,
         },
         ],
@@ -366,7 +369,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 28,
-      text: "To your surprise, the citizen reveals their true identity. A wise old Jedi in hiding. The wise old Jedi in hiding looks at you with a knowing gaze. 'I sensed your presence and your mission,' the old Jedi says. 'You carry the weight of an important task, and the Force has guided you to me.' You feel a sense of relief knowing that youre not alone in this dangerous journey. 'How can you assist me?' you ask.",
+      text: "To your surprise, the citizen reveals their true identity. A wise old Jedi in hiding. The wise old Jedi in hiding looks at you with a knowing gaze. 'I sensed your presence and your mission,' the old Jedi says. 'You carry the weight of an important task, and the Force has guided you to me.' You feel a sense of relief knowing that you're not alone in this dangerous journey. 'How can you assist me?' you ask.",
       options: [
         {
           text: "Ask for guidance and help from the old Jedi.",
@@ -383,24 +386,24 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "You make the jump to lightspeed, leaving the bustling city behind. Your trial has been a success, and you've demonstrated your resourcefulness and ability to adapt to challenging situations. Guided by the Force, you navigate the treacherous spaceways, avoiding Imperial patrols and maintaining a low profile. Your piloting skills and the stolen shuttle allow you to make a swift, uneventful journey back to the Taung girl's homeworld",
       options: [
         {
-          text: "Decend into the plant Roon.",
+          text: "Descend into the plant Roon.",
           nextText: 33,
         },
       ],
     },
     {
       id: 30,
-      text: "The journy to Roon is long, but you are resolute. Guided by the Force, you navigate the treacherous spaceways, avoiding Imperial patrols and maintaining a low profile. Your piloting skills and the stolen shuttle allow you to make a swift, uneventful journey back to the Roon.",
+      text: "The journey to Roon is long, but you are resolute. Guided by the Force, you navigate the treacherous spaceways, avoiding Imperial patrols and maintaining a low profile. Your piloting skills and the stolen shuttle allow you to make a swift, uneventful journey back to the Roon.",
       options: [
         {
-          text: "Decend into the planet Roon.",
+          text: "Descend into the planet Roon.",
           nextText: 33,
         },
         ],
     },
     {
       id: 31,
-      text: "'Wait!' says the old wise Jedi, reaching into their robes. The Jedi's hand emerges, holding a small, shimmering kyber crystal. Its lavender and it glistens with a faint, otherworldly glow. 'Take this kyber crystal,' the old Jedi says, 'It is a symbol of your connection to the Force and a source of power for your lightsaber. Use it wisely.'",
+      text: "'Wait!' says the old wise Jedi, reaching into their robes. The Jedi's hand emerges, holding a small, shimmering kyber crystal. It's lavender and it glistens with a faint, otherworldly glow. 'Take this kyber crystal,' the old Jedi says, 'It is a symbol of your connection to the Force and a source of power for your lightsaber. Use it wisely.'",
       options: [
         {
           text: "Gratefully accept the kyber crystal and thank the old wise Jedi." ,
@@ -488,15 +491,33 @@ document.addEventListener("DOMContentLoaded", function () {
         id: 38,
         text: "As you accept the radiant lavender kyber crystal from the Taung child's parents, you feel a rush of power that you've never experienced before. It's intoxicating, and you can't resist the temptation to explore its dark potential further. Instead of returning to the Jedi Order with the crystal, you decide to keep it hidden and embark on a journey of your own. You disappear into the galaxy, seeking knowledge and power beyond the teachings of the Jedi. Over time, you become a formidable Force user, but your pursuit of power comes at a great cost. You commit heinous acts, manipulating others and even taking innocent lives to fuel your dark ambitions. The crystal's dark influence corrupts your once-pure intentions, and you become a feared and notorious figure in the galaxy.",
         options: [
-          { 
+          {
             text: "Start Over?",
+            nextText: 0,
+          },
+          {
+            text: "Jedi Code",
+            nextText: 39,
+          },
+        ],
+        },
+      {
+        id: 39,
+        text: "There is no emotion, there is peace. There is no ignorance, there is knowledge. There is no passion, there is serenity. There is no chaos, there is harmony. There is no death, there is the Force.",
+        options: [
+          {
+            text: "Start your Trial.",
             nextText: 0,
           },
         ],
       },
   ];
 
-
+function startGame() {
+  showTextNode(0);
+}
+ 
+let state = {};
 
   function showTextNode(textNodeId) {
     const textNode = textNodes.find((node) => node.id === textNodeId);
@@ -514,8 +535,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function selectOption(option) {
+    if (option.setState) {
+      state = object.assign(state, option.setState);
+    }
     showTextNode(option.nextText);
   }
 
-  showTextNode(0);
+  startGame();
 });

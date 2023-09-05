@@ -41,7 +41,7 @@ body {
 #text {
   background-color: rgba(0, 0, 0, 0.226);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 40px;
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ body {
   display: inline-block;
   background-color: rgb(96, 80, 205);
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 40px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
