@@ -179,6 +179,10 @@ document.addEventListener("DOMContentLoaded", function () {
           text: "Start Over",
           nextText: 0,
         },
+        {
+          text: "Jedi Code",
+          nextText: 39,
+        },
       ],
     },
     {
@@ -475,6 +479,10 @@ document.addEventListener("DOMContentLoaded", function () {
             text: "Start Over?",
             nextText: 0,
           },
+          {
+            text: "Jedi Code",
+            nextText: 39,
+          },
           ],
       },
       {
@@ -484,6 +492,10 @@ document.addEventListener("DOMContentLoaded", function () {
           {
           text: "Start over?",
           nextText: 0,
+        },
+        {
+          text: "Jedi Code",
+          nextText:39,
         },
         ],
       },
